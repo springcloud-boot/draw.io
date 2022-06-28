@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T08:36:22.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="SsS__Hnab-wByBPF4VWr" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T08:39:06.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="aYee_oCVjRig0pThzDDR" version="20.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="mbmvQlX0xwVgaDl7BcdG-16" value="三方发送下单" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;arcSize=50;" parent="mbmvQlX0xwVgaDl7BcdG-15" vertex="1">
           <mxGeometry x="70" y="65" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mbmvQlX0xwVgaDl7BcdG-62" value="单渠道大于50条?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="mbmvQlX0xwVgaDl7BcdG-15" vertex="1">
+        <mxCell id="mbmvQlX0xwVgaDl7BcdG-62" value="是否批量提交" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="mbmvQlX0xwVgaDl7BcdG-15" vertex="1">
           <mxGeometry x="65" y="160" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mbmvQlX0xwVgaDl7BcdG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="mbmvQlX0xwVgaDl7BcdG-15" source="mbmvQlX0xwVgaDl7BcdG-16" target="mbmvQlX0xwVgaDl7BcdG-62" edge="1">
