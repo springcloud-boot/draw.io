@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T02:44:52.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="G3cOrmbJUdAS4BeyNqIy" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T02:45:11.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="RsAUtfBcQXpa3FnavI2_" version="20.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4338" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -133,6 +133,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mbmvQlX0xwVgaDl7BcdG-110" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;dashed=1;" edge="1" parent="mbmvQlX0xwVgaDl7BcdG-14" source="mbmvQlX0xwVgaDl7BcdG-81" target="mbmvQlX0xwVgaDl7BcdG-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mbmvQlX0xwVgaDl7BcdG-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mbmvQlX0xwVgaDl7BcdG-115" target="mbmvQlX0xwVgaDl7BcdG-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mbmvQlX0xwVgaDl7BcdG-115" value="本地缓存流程图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
