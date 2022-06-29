@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T06:09:02.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="ZjsrzKQFv5VhRzPgsqSO" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-29T06:10:50.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="NrGicS8h0urPHN5vhpj4" version="20.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4338" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -294,7 +294,7 @@
         <mxCell id="DcfGnrZS7QAa76NQlmp4-31" value="PushBusinessTask" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="1720" width="300" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="DcfGnrZS7QAa76NQlmp4-32" value="+jobId   废弃,无用字段&#xa;+partitionId   分区id,&#xa;+serialNo      序列号&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="DcfGnrZS7QAa76NQlmp4-31">
+        <mxCell id="DcfGnrZS7QAa76NQlmp4-32" value="+jobId   废弃,无用字段&#xa;+partitionId   分区id,&#xa;+serialNo      序列号,每个渠道唯一&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="DcfGnrZS7QAa76NQlmp4-31">
           <mxGeometry y="30" width="300" height="310" as="geometry" />
         </mxCell>
         <mxCell id="DcfGnrZS7QAa76NQlmp4-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeColor=#000000;entryX=-0.009;entryY=0.109;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DcfGnrZS7QAa76NQlmp4-33" target="DcfGnrZS7QAa76NQlmp4-32">
