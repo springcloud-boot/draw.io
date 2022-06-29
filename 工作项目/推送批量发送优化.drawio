@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T06:38:54.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="BuFzSN_6Wum3J-OAntLS" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-29T07:08:40.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="A7PBq8pnxe_2NE3n9ZcC" version="20.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4521" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -294,7 +294,7 @@
         <mxCell id="DcfGnrZS7QAa76NQlmp4-31" value="PushBusinessTask" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="1910" width="300" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="DcfGnrZS7QAa76NQlmp4-32" value="+jobId   新改动废弃&#xa;+channelId  渠道id&#xa;+smsAccessType  短信服务商&#xa;+partitionId   分区id,&#xa;+serialNo      序列号,每个渠道唯一&#xa;+taskId        新改动废弃" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="DcfGnrZS7QAa76NQlmp4-31">
+        <mxCell id="DcfGnrZS7QAa76NQlmp4-32" value="+id        &#xa;+jobId   新改动废弃&#xa;+channelId  渠道id&#xa;+smsAccessType  短信服务商&#xa;+partitionId   分区id,&#xa;+serialNo      序列号,每个渠道唯一&#xa;+taskId        新改动废弃" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="DcfGnrZS7QAa76NQlmp4-31">
           <mxGeometry y="30" width="300" height="160" as="geometry" />
         </mxCell>
         <mxCell id="DcfGnrZS7QAa76NQlmp4-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeColor=#000000;entryX=0.001;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DcfGnrZS7QAa76NQlmp4-33" target="DcfGnrZS7QAa76NQlmp4-32">
@@ -303,7 +303,7 @@
         <mxCell id="DcfGnrZS7QAa76NQlmp4-33" value="按业务模板固定周期生成,&lt;br&gt;一个周期内,每个渠道的固定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-130" y="1980" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DcfGnrZS7QAa76NQlmp4-37" value="明细表" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DcfGnrZS7QAa76NQlmp4-37" value="PushMessage" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="1900" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="DcfGnrZS7QAa76NQlmp4-38" value="+JobId    三方传递的jobId&#xa;+itemId    三方每条流水号&#xa;+otherId    我方每条流水号&#xa;+partitionId    分区id&#xa;+batchNum 批次号&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="DcfGnrZS7QAa76NQlmp4-37">
@@ -365,7 +365,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DcfGnrZS7QAa76NQlmp4-57" value="" style="endArrow=none;html=1;rounded=0;dashed=1;fontSize=16;fontColor=#000000;strokeColor=#000000;exitX=1.001;exitY=0.563;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=1;endSize=6;startArrow=none;startFill=0;endFill=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DcfGnrZS7QAa76NQlmp4-32" target="DcfGnrZS7QAa76NQlmp4-38">
+        <mxCell id="DcfGnrZS7QAa76NQlmp4-57" value="" style="endArrow=none;html=1;rounded=0;dashed=1;fontSize=16;fontColor=#000000;strokeColor=#000000;exitX=1.006;exitY=0.669;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=1;endSize=6;startArrow=none;startFill=0;endFill=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DcfGnrZS7QAa76NQlmp4-32" target="DcfGnrZS7QAa76NQlmp4-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="501.28" y="1910" as="sourcePoint" />
             <mxPoint x="645.0000000000002" y="2164.03" as="targetPoint" />
@@ -381,7 +381,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DcfGnrZS7QAa76NQlmp4-60" value="" style="endArrow=none;html=1;rounded=0;dashed=1;fontSize=16;fontColor=#000000;strokeColor=#000000;exitX=1.009;exitY=0.428;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.641;entryDx=0;entryDy=0;strokeWidth=1;endSize=6;startArrow=none;startFill=0;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DcfGnrZS7QAa76NQlmp4-32" target="DcfGnrZS7QAa76NQlmp4-38">
+        <mxCell id="DcfGnrZS7QAa76NQlmp4-60" value="" style="endArrow=none;html=1;rounded=0;dashed=1;fontSize=16;fontColor=#000000;strokeColor=#000000;exitX=1.006;exitY=0.557;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.641;entryDx=0;entryDy=0;strokeWidth=1;endSize=6;startArrow=none;startFill=0;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DcfGnrZS7QAa76NQlmp4-32" target="DcfGnrZS7QAa76NQlmp4-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="439.99999999999926" y="1980.0000000000005" as="sourcePoint" />
             <mxPoint x="689.6999999999991" y="1947.42" as="targetPoint" />
